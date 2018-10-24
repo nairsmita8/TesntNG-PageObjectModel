@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CRM TEST"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="9.200">
+  <properties />
+  
+  
+            <testcase name="clickCalendarPageTest" time="1.564" classname="com.crm.qa.pageTest.homePageTest" />
+                <testcase name="clickContactPagTest" time="1.060" classname="com.crm.qa.pageTest.homePageTest" />
+                <testcase name="verifyHomePageTitleTest" time="0.031" classname="com.crm.qa.pageTest.homePageTest" />
+                <testcase name="clickCompanyPageTest" time="1.204" classname="com.crm.qa.pageTest.homePageTest" />
+                <testcase name="clickDealsPageTest" time="1.385" classname="com.crm.qa.pageTest.homePageTest" />
+                <testcase name="verifyLoginUserTest" time="0.107" classname="com.crm.qa.pageTest.homePageTest" />
+                <testcase name="clickCasePageTest" time="1.193" classname="com.crm.qa.pageTest.homePageTest" />
+                <testcase name="clickTasksPageTest" time="2.656" classname="com.crm.qa.pageTest.homePageTest" />
+      
+</testsuite>

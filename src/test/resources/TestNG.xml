@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CRMPRE TEST" parallel="classes" thread-count="1"  > 
+<!-- suite name="Suite Name" AND Please remember all the tag names should be lowered case otherwise the system will throw an error --> 
+
+			<listeners>
+			      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+			      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+			      <listener class-name="com.crm.qa.ExtentReporter.ExtentReporterNG"/> 
+			</listeners>
+             <test name="CRM TEST" allow-return-values="true">
+            		<!--  <groups>
+             			<run>
+             				<include name = "sanity"/>
+             				<include name = "smoke"/>
+             			</run>
+             		 </groups> -->
+             		 <parameter name="browser" value="CHROME" />
+                     <classes>
+                       <!-- packagename.Testcase class name  -->
+		                     <class name ="com.crm.qa.pageTest.loginPageTest" />
+		                     <class name ="com.crm.qa.pageTest.homePageTest" />
+		                     <class name ="com.crm.qa.pageTest.calendarPageTest" />
+                       		 <class name ="com.crm.qa.pageTest.contactsPageTest" />
+                     </classes>
+             </test>
+</suite>

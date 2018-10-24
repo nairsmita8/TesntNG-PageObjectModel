@@ -1,0 +1,224 @@
+<html>
+<head>
+<title>TestNG:  CRM TEST</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>CRM TEST</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Oct 23 18:00:53 PDT 2018</td>
+</tr>
+<tr><td>Total time:</td><td>352 seconds (352778 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.crm.qa.pageTest.calendarPageTest.verifyDisplayedCurrentDateTest()'><b>verifyDisplayedCurrentDateTest</b><br>Test class: com.crm.qa.pageTest.calendarPageTest</td>
+<td><div><pre>java.lang.AssertionError: expected [October 23Today 2018] but found [October 24Today 2018]
+	at com.crm.qa.pageTest.calendarPageTest.verifyDisplayedCurrentDateTest(calendarPageTest.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace829284191", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace829284191'><pre>java.lang.AssertionError: expected [October 23Today 2018] but found [October 24Today 2018]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.crm.qa.pageTest.calendarPageTest.verifyDisplayedCurrentDateTest(calendarPageTest.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>1</td>
+<td>com.crm.qa.pageTest.calendarPageTest@6ddf90b0</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.crm.qa.pageTest.contactsPageTest.VerifyNewContactsLabelTest()'><b>VerifyNewContactsLabelTest</b><br>Test class: com.crm.qa.pageTest.contactsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.crm.qa.pageTest.contactsPageTest@57536d79</td></tr>
+<tr>
+<td title='com.crm.qa.pageTest.contactsPageTest.addNewContactsTest()'><b>addNewContactsTest</b><br>Test class: com.crm.qa.pageTest.contactsPageTest<br>Parameters: Mr., Larson1, Thareja, ECE, BOM</td>
+<td></td>
+<td>2</td>
+<td>com.crm.qa.pageTest.contactsPageTest@57536d79</td></tr>
+<tr>
+<td title='com.crm.qa.pageTest.contactsPageTest.addNewContactsTest()'><b>addNewContactsTest</b><br>Test class: com.crm.qa.pageTest.contactsPageTest<br>Parameters: Mrs., Veerson1, Gupta, TCE, BGH</td>
+<td></td>
+<td>2</td>
+<td>com.crm.qa.pageTest.contactsPageTest@57536d79</td></tr>
+<tr>
+<td title='com.crm.qa.pageTest.contactsPageTest.addNewContactsTest()'><b>addNewContactsTest</b><br>Test class: com.crm.qa.pageTest.contactsPageTest<br>Parameters: Miss, Harson1, Kumar, TRU, TRY</td>
+<td></td>
+<td>2</td>
+<td>com.crm.qa.pageTest.contactsPageTest@57536d79</td></tr>
+<tr>
+<td title='com.crm.qa.pageTest.contactsPageTest.addNewContactsTest()'><b>addNewContactsTest</b><br>Test class: com.crm.qa.pageTest.contactsPageTest<br>Parameters: Miss, Jeffrey1, Hoda, ERD, TED</td>
+<td></td>
+<td>2</td>
+<td>com.crm.qa.pageTest.contactsPageTest@57536d79</td></tr>
+<tr>
+<td title='com.crm.qa.pageTest.homePageTest.clickCalendarPageTest()'><b>clickCalendarPageTest</b><br>Test class: com.crm.qa.pageTest.homePageTest</td>
+<td></td>
+<td>1</td>
+<td>com.crm.qa.pageTest.homePageTest@2b2948e2</td></tr>
+<tr>
+<td title='com.crm.qa.pageTest.homePageTest.clickCasePageTest()'><b>clickCasePageTest</b><br>Test class: com.crm.qa.pageTest.homePageTest</td>
+<td></td>
+<td>1</td>
+<td>com.crm.qa.pageTest.homePageTest@2b2948e2</td></tr>
+<tr>
+<td title='com.crm.qa.pageTest.homePageTest.clickCompanyPageTest()'><b>clickCompanyPageTest</b><br>Test class: com.crm.qa.pageTest.homePageTest</td>
+<td></td>
+<td>1</td>
+<td>com.crm.qa.pageTest.homePageTest@2b2948e2</td></tr>
+<tr>
+<td title='com.crm.qa.pageTest.homePageTest.clickContactPagTest()'><b>clickContactPagTest</b><br>Test class: com.crm.qa.pageTest.homePageTest</td>
+<td></td>
+<td>1</td>
+<td>com.crm.qa.pageTest.homePageTest@2b2948e2</td></tr>
+<tr>
+<td title='com.crm.qa.pageTest.homePageTest.clickDealsPageTest()'><b>clickDealsPageTest</b><br>Test class: com.crm.qa.pageTest.homePageTest</td>
+<td></td>
+<td>1</td>
+<td>com.crm.qa.pageTest.homePageTest@2b2948e2</td></tr>
+<tr>
+<td title='com.crm.qa.pageTest.homePageTest.clickTasksPageTest()'><b>clickTasksPageTest</b><br>Test class: com.crm.qa.pageTest.homePageTest</td>
+<td></td>
+<td>2</td>
+<td>com.crm.qa.pageTest.homePageTest@2b2948e2</td></tr>
+<tr>
+<td title='com.crm.qa.pageTest.loginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.crm.qa.pageTest.loginPageTest</td>
+<td></td>
+<td>5</td>
+<td>com.crm.qa.pageTest.loginPageTest@eec5a4a</td></tr>
+<tr>
+<td title='com.crm.qa.pageTest.loginPageTest.validateCRMLogoImageTest()'><b>validateCRMLogoImageTest</b><br>Test class: com.crm.qa.pageTest.loginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.crm.qa.pageTest.loginPageTest@eec5a4a</td></tr>
+<tr>
+<td title='com.crm.qa.pageTest.loginPageTest.validateLoginPageTitleTest()'><b>validateLoginPageTitleTest</b><br>Test class: com.crm.qa.pageTest.loginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.crm.qa.pageTest.loginPageTest@eec5a4a</td></tr>
+<tr>
+<td title='com.crm.qa.pageTest.calendarPageTest.verifyCalenderWidgetTest()'><b>verifyCalenderWidgetTest</b><br>Test class: com.crm.qa.pageTest.calendarPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.crm.qa.pageTest.calendarPageTest@6ddf90b0</td></tr>
+<tr>
+<td title='com.crm.qa.pageTest.homePageTest.verifyHomePageTitleTest()'><b>verifyHomePageTitleTest</b><br>Test class: com.crm.qa.pageTest.homePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.crm.qa.pageTest.homePageTest@2b2948e2</td></tr>
+<tr>
+<td title='com.crm.qa.pageTest.homePageTest.verifyLoginUserTest()'><b>verifyLoginUserTest</b><br>Test class: com.crm.qa.pageTest.homePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.crm.qa.pageTest.homePageTest@2b2948e2</td></tr>
+<tr>
+<td title='com.crm.qa.pageTest.contactsPageTest.verifySavedContactTest()'><b>verifySavedContactTest</b><br>Test class: com.crm.qa.pageTest.contactsPageTest<br>Parameters: Mr., Larson1, Thareja, ECE, BOM</td>
+<td></td>
+<td>1</td>
+<td>com.crm.qa.pageTest.contactsPageTest@57536d79</td></tr>
+<tr>
+<td title='com.crm.qa.pageTest.contactsPageTest.verifySavedContactTest()'><b>verifySavedContactTest</b><br>Test class: com.crm.qa.pageTest.contactsPageTest<br>Parameters: Mrs., Veerson1, Gupta, TCE, BGH</td>
+<td></td>
+<td>1</td>
+<td>com.crm.qa.pageTest.contactsPageTest@57536d79</td></tr>
+<tr>
+<td title='com.crm.qa.pageTest.contactsPageTest.verifySavedContactTest()'><b>verifySavedContactTest</b><br>Test class: com.crm.qa.pageTest.contactsPageTest<br>Parameters: Miss, Harson1, Kumar, TRU, TRY</td>
+<td></td>
+<td>1</td>
+<td>com.crm.qa.pageTest.contactsPageTest@57536d79</td></tr>
+<tr>
+<td title='com.crm.qa.pageTest.contactsPageTest.verifySavedContactTest()'><b>verifySavedContactTest</b><br>Test class: com.crm.qa.pageTest.contactsPageTest<br>Parameters: Miss, Jeffrey1, Hoda, ERD, TED</td>
+<td></td>
+<td>1</td>
+<td>com.crm.qa.pageTest.contactsPageTest@57536d79</td></tr>
+</table><p>
+</body>
+</html>

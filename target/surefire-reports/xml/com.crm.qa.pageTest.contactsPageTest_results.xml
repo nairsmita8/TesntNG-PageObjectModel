@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CRM TEST"
+           tests="9"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="16.472">
+  <properties />
+  
+  
+            <testcase name="addNewContactsTest" time="2.901" classname="com.crm.qa.pageTest.contactsPageTest" />
+                <testcase name="verifySavedContactTest" time="1.855" classname="com.crm.qa.pageTest.contactsPageTest" />
+                <testcase name="verifySavedContactTest" time="1.415" classname="com.crm.qa.pageTest.contactsPageTest" />
+                <testcase name="addNewContactsTest" time="2.556" classname="com.crm.qa.pageTest.contactsPageTest" />
+                <testcase name="addNewContactsTest" time="2.690" classname="com.crm.qa.pageTest.contactsPageTest" />
+                <testcase name="addNewContactsTest" time="2.123" classname="com.crm.qa.pageTest.contactsPageTest" />
+                <testcase name="verifySavedContactTest" time="1.423" classname="com.crm.qa.pageTest.contactsPageTest" />
+                <testcase name="VerifyNewContactsLabelTest" time="0.085" classname="com.crm.qa.pageTest.contactsPageTest" />
+                <testcase name="verifySavedContactTest" time="1.424" classname="com.crm.qa.pageTest.contactsPageTest" />
+      
+</testsuite>

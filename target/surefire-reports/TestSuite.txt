@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 357.15 sec <<< FAILURE!
+verifyDisplayedCurrentDateTest(com.crm.qa.pageTest.calendarPageTest)  Time elapsed: 1.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected [October 23Today 2018] but found [October 24Today 2018]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.crm.qa.pageTest.calendarPageTest.verifyDisplayedCurrentDateTest(calendarPageTest.java:63)
+

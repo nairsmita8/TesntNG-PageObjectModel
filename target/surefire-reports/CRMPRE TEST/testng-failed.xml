@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [CRMPRE TEST]" parallel="classes">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.crm.qa.ExtentReporter.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="1" verbose="0" name="CRM TEST(failed)" parallel="classes">
+    <parameter name="browser" value="CHROME"/>
+    <classes>
+      <class name="com.crm.qa.pageTest.calendarPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyDisplayedCurrentDateTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.pageTest.calendarPageTest -->
+    </classes>
+  </test> <!-- CRM TEST(failed) -->
+</suite> <!-- Failed suite [CRMPRE TEST] -->

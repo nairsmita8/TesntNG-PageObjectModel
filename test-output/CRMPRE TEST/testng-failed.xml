@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [CRMPRE TEST]" parallel="classes">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="1" name="CRM TEST(failed)" parallel="classes">
+    <parameter name="browser" value="CHROME"/>
+    <classes>
+      <class name="com.crm.qa.pageTest.calendarPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyCalenderWidgetTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.qa.pageTest.calendarPageTest -->
+    </classes>
+  </test> <!-- CRM TEST(failed) -->
+</suite> <!-- Failed suite [CRMPRE TEST] -->

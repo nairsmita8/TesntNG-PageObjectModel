@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="32.432" tests="22" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="CRMTestAutomation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\nairs\.jenkins"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="HUDSON_SERVER_COOKIE" value="3eadd549d94aaedc"/>
+    <property name="POM_ARTIFACTID" value="POMTestNG"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_162\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="POMTestNG"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\nairs\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_162-b12"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="user.name" value="nairs"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="CRMTestAutomation"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/CRMTestAutomation/7/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#7"/>
+    <property name="OneDrive" value="C:\Users\nairs\OneDrive"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_162\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\nairs\AppData\Local"/>
+    <property name="java.version" value="1.8.0_162"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="USERNAME" value="nairs"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="7"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="maven.conf" value="C:\Users\nairs\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\conf"/>
+    <property name="M2_Home" value="C:\Users\nairs\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_162\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/CRMTestAutomation/7/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\nairs\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.162-b12"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/CRMTestAutomation/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="SMI-DELL"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_162"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="HOMEPATH" value="\Users\nairs"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="SMI-DELL"/>
+    <property name="GOOGLE_API_KEY" value="no"/>
+    <property name="GOOGLE_DEFAULT_CLIENT_SECRET" value="no"/>
+    <property name="POM_GROUPID" value="POMTestNG"/>
+    <property name="user.home" value="C:\Users\nairs"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-CRMTestAutomation-7"/>
+    <property name="JENKINS_SERVER_COOKIE" value="3eadd549d94aaedc"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\nairs"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_162\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\nairs\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files\Java\jdk1.8.0_162/bin;C:\Program Files\Java\jdk1.8.0_162/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\MongoDB\Server\3.6\bin;C:\Program Files\apache-maven-3.5.2\bin;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_162\bin;C:\Users\nairs\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MongoDB\Server\3.6\bin;C:\Program Files\apache-maven-3.5.2\bin;;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\nairs\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\nairs\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.class.path" value="C:\Users\nairs\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;C:\Users\nairs\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\boot\plexus-classworlds-2.5.2.jar;C:\Users\nairs\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\nairs\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\nairs\.jenkins\war\WEB-INF\lib\remoting-3.27.jar C:\Users\nairs\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\nairs\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 53732"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_162/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\MongoDB\Server\3.6\bin;C:\Program Files\apache-maven-3.5.2\bin;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_162\bin;C:\Users\nairs\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MongoDB\Server\3.6\bin;C:\Program Files\apache-maven-3.5.2\bin;"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_162/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 9, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.io.tmpdir" value="C:\Users\nairs\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\nairs\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\nairs\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/CRMTestAutomation/7/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\nairs\eclipse-workspace\POMTestNG"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/CRMTestAutomation/"/>
+    <property name="GOOGLE_DEFAULT_CLIENT_ID" value="no"/>
+    <property name="LOGONSERVER" value="\\SMI-DELL"/>
+    <property name="USERDOMAIN" value="SMI-DELL"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="C:\Users\nairs\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="7"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="8e09"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="=C:" value="C:\Users\nairs\Jenkins"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\nairs\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
+    <property name="WORKSPACE" value="C:\Users\nairs\.jenkins\workspace\CRMTestAutomation"/>
+    <property name="maven3.interceptor.common" value="C:\Users\nairs\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+  </properties>
+  <testcase name="clickCalendarPageTest" classname="com.crm.qa.pageTest.homePageTest" time="1.566"/>
+  <testcase name="clickCasePageTest" classname="com.crm.qa.pageTest.homePageTest" time="1.192"/>
+  <testcase name="clickCompanyPageTest" classname="com.crm.qa.pageTest.homePageTest" time="1.201"/>
+  <testcase name="clickContactPagTest" classname="com.crm.qa.pageTest.homePageTest" time="1.06"/>
+  <testcase name="clickDealsPageTest" classname="com.crm.qa.pageTest.homePageTest" time="1.387"/>
+  <testcase name="clickTasksPageTest" classname="com.crm.qa.pageTest.homePageTest" time="2.66"/>
+  <testcase name="validateLoginPageTitleTest" classname="com.crm.qa.pageTest.loginPageTest" time="0.05"/>
+  <testcase name="verifyHomePageTitleTest" classname="com.crm.qa.pageTest.homePageTest" time="0.029"/>
+  <testcase name="verifyCalenderWidgetTest" classname="com.crm.qa.pageTest.calendarPageTest" time="0.058"/>
+  <testcase name="VerifyNewContactsLabelTest" classname="com.crm.qa.pageTest.contactsPageTest" time="0.085"/>
+  <testcase name="validateCRMLogoImageTest" classname="com.crm.qa.pageTest.loginPageTest" time="0.097"/>
+  <testcase name="verifyLoginUserTest" classname="com.crm.qa.pageTest.homePageTest" time="0.107"/>
+  <testcase name="verifyDisplayedCurrentDateTest" classname="com.crm.qa.pageTest.calendarPageTest" time="1.001">
+    <failure message="expected [October 23Today 2018] but found [October 24Today 2018]" type="java.lang.AssertionError">java.lang.AssertionError: expected [October 23Today 2018] but found [October 24Today 2018]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.crm.qa.pageTest.calendarPageTest.verifyDisplayedCurrentDateTest(calendarPageTest.java:63)
+</failure>
+    <system-out>Before navigating to: 'https://www.freecrm.com/index.html'
+Navigated to:'https://www.freecrm.com/index.html'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //input[@value='Login']
+Found Element By : By.xpath: //input[@value='Login']
+Trying to find Element By : By.xpath: //a[@title='Calendar']
+Found Element By : By.xpath: //a[@title='Calendar']
+Trying to click on: [[ChromeDriver: chrome on XP (1caec47a4ca073079460153221f992b7)] -> xpath: //a[@title='Calendar']]
+Clicked on: [[ChromeDriver: chrome on XP (1caec47a4ca073079460153221f992b7)] -> xpath: //a[@title='Calendar']]
+Trying to find Element By : By.xpath: //select[@name='slctMonth']
+Found Element By : By.xpath: //select[@name='slctMonth']
+Trying to find Element By : By.tagName: option
+Found Element By : By.tagName: option
+Trying to find Element By : By.xpath: //select[@name='slctYear']
+Found Element By : By.xpath: //select[@name='slctYear']
+Trying to find Element By : By.tagName: option
+Found Element By : By.tagName: option
+Trying to find Element By : By.xpath: //td[@class='calendarselected']
+Found Element By : By.xpath: //td[@class='calendarselected']
+</system-out>
+    <system-err>Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 6703
+Only local connections are allowed.
+Oct 23, 2018 6:03:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase name="addNewContactsTest" classname="com.crm.qa.pageTest.contactsPageTest" time="2.556"/>
+  <testcase name="addNewContactsTest" classname="com.crm.qa.pageTest.contactsPageTest" time="2.9"/>
+  <testcase name="addNewContactsTest" classname="com.crm.qa.pageTest.contactsPageTest" time="2.123"/>
+  <testcase name="addNewContactsTest" classname="com.crm.qa.pageTest.contactsPageTest" time="2.691"/>
+  <testcase name="loginTest" classname="com.crm.qa.pageTest.loginPageTest" time="5.553"/>
+  <testcase name="verifySavedContactTest" classname="com.crm.qa.pageTest.contactsPageTest" time="1.855"/>
+  <testcase name="verifySavedContactTest" classname="com.crm.qa.pageTest.contactsPageTest" time="1.415"/>
+  <testcase name="verifySavedContactTest" classname="com.crm.qa.pageTest.contactsPageTest" time="1.423"/>
+  <testcase name="verifySavedContactTest" classname="com.crm.qa.pageTest.contactsPageTest" time="1.423"/>
+</testsuite>

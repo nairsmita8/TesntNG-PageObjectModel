@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CRM TEST"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.560">
+  <properties />
+  
+  
+            <testcase name="verifyCalenderWidgetTest" time="0.047" classname="com.crm.qa.pageTest.calendarPageTest" />
+                <testcase name="verifyDisplayedCurrentDateTest" time="0.513" classname="com.crm.qa.pageTest.calendarPageTest" />
+      
+</testsuite>

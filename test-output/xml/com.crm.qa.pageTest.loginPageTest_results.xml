@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CRM TEST"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.775">
+  <properties />
+  
+  
+            <testcase name="loginTest" time="4.644" classname="com.crm.qa.pageTest.loginPageTest" />
+                <testcase name="validateCRMLogoImageTest" time="0.075" classname="com.crm.qa.pageTest.loginPageTest" />
+                <testcase name="validateLoginPageTitleTest" time="0.056" classname="com.crm.qa.pageTest.loginPageTest" />
+      
+</testsuite>
