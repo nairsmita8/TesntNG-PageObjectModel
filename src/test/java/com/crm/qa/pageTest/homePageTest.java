@@ -1,6 +1,7 @@
 package com.crm.qa.pageTest;
 
 import java.io.IOException;
+import java.net.MalformedURLException;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -66,6 +67,13 @@ public class homePageTest extends testBase {
 		util.switchFrame();
 		boolean name = homePageObject.verifyLoginUser(prop.getProperty("user"));
 		Assert.assertTrue(name, "User "+name+" not found in home page screen.");
+		
+	}
+	
+	@Test(priority=3)
+	public void checkBrokenlinksTest() throws MalformedURLException, IOException {
+		
+		homePageObject.checkBrokenlinks();
 		
 	}
 	
