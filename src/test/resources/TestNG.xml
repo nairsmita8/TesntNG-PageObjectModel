@@ -7,6 +7,7 @@
 			      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
 			      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
 			      <listener class-name="com.crm.qa.ExtentReporter.ExtentReporterNG"/> 
+			      <listener class-name="com.crm.qa.util.RetryAnnotationTransformer"/>
 			</listeners>
              <test name="CRM TEST" allow-return-values="true">
             		<!--  <groups>
